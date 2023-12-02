@@ -27,3 +27,36 @@ Styling:
 
 Buttons and the display area are styled with specific colors, sizes, and fonts to make the calculator look visually appealing.
 In simpler terms, the code makes a calculator that you can interact with using buttons. It shows your inputs and the results on a screen, and you can perform basic calculations like addition, subtraction, multiplication, and division.
+
+ROCK PAPER SCISSORS GAME :
+The provided code is a simple implementation of the Rock, Paper, Scissors game using Python and Tkinter, a graphical user interface library. Here's a breakdown of what the code does:
+
+Game Logic:
+
+The game logic is defined in a dictionary called schema, which determines the outcomes of the Rock, Paper, Scissors game. It specifies the results when the player chooses one option against the computer's choice.
+Variables:
+
+Variables comp_score and player_score keep track of the computer's and player's scores, respectively.
+Outcome Handler Function:
+
+The outcome_handler function manages the game outcomes. It randomly selects the computer's choice, compares it with the player's choice, and updates the scores and outcome labels accordingly.
+GUI Setup:
+
+The Tkinter window is created with the title "RPS" (Rock, Paper, Scissors).
+Labels are used to display the game title, score for the player and computer, player and computer choices, and the game outcome.
+Buttons:
+
+Three buttons are provided for the player to choose Rock, Paper, or Scissors. Each button is associated with the outcome_handler function, passing the corresponding choice as an argument.
+Main Loop:
+
+The Tkinter event loop (mainloop()) keeps the GUI window open and responsive.
+Label Styling:
+
+Labels are formatted with specific fonts, sizes, and colors to make the interface clear.
+In simpler terms, this code creates a Rock, Paper, Scissors game where the player can make a choice, and the computer randomly selects its choice. The program then determines the winner based on the game rules and updates the scores and outcome display on the graphical interface. Players can play multiple rounds by clicking on the provided buttons.
+
+
+
+
+
+
